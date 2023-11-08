@@ -15,10 +15,12 @@ public class CommandeRemplacer extends CommandeDocument {
             System.err.println("Format attendu : remplacer;start;end;texte");
             return;
         }
-        int start = Integer.parseInt(parameters[1]);
-        int end = Integer.parseInt(parameters[2]);
-        String remplacement = parameters[3];
-        this.document.remplacer(start, end, remplacement);
+
+        String texte = "";
+        if (parameters.length > 3) {
+            texte = parameters[3];
+        }
+        this.document.remplacer(Integer.parseInt(parameters[1]), Integer.parseInt(parameters[2]), texte);
         super.executer();
     }
 
