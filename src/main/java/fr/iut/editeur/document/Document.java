@@ -37,4 +37,10 @@ public class Document {
         String aRemplacer = texte.substring(start, end);
         texte = leftPart + aRemplacer.toUpperCase() + rightPart;
     }
+
+    public void suppression(int start, int end) {
+        String leftPart = texte.substring(0, start);
+        String rightPart = texte.substring(end);
+        texte = leftPart + rightPart;
+    }
 }
