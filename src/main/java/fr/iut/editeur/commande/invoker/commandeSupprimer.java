@@ -18,6 +18,4 @@ public class commandeSupprimer extends CommandeDocument {
         this.document.suppression(Integer.parseInt(parameters[1]), Integer.parseInt(parameters[2]));
         super.executer();
     }
-
-
 }
