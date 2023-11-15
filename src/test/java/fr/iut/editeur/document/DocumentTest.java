@@ -1,8 +1,9 @@
 package fr.iut.editeur.document;
 
+import junit.framework.TestCase;
 import org.junit.Test;
 
-public class DocumentTest {
+public class DocumentTest extends TestCase {
 
     @Test
     public void testDocument() {
