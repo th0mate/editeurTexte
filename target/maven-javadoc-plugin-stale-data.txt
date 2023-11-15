@@ -1,0 +1,49 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/farmi/Documents/COURS - 2BUTINFO/Qualité de Dev/editeur-de-texte-loyet/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/farmi/Documents/COURS - 2BUTINFO/Qualité de Dev/editeur-de-texte-loyet/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'EditeurDeTexte 0.0.1 API'
+-use
+-version
+-windowtitle
+'EditeurDeTexte 0.0.1 API'
+fr.iut.editeur.commande
+fr.iut.editeur.commande.factory
+fr.iut.editeur.commande.invoker
+fr.iut.editeur.document
+fr.iut.editeur
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\src\main\java = 1699428773913
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\allclasses-index.html = 1700034818988
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\allpackages-index.html = 1700034818994
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\copy.svg = 1700034819048
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\element-list = 1700034818806
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\help-doc.html = 1700034819038
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\index-all.html = 1700034819025
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\index.html = 1700034818972
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\member-search-index.js = 1700034819004
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\module-search-index.js = 1700034818996
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\overview-summary.html = 1700034819032
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\overview-tree.html = 1700034818966
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\package-search-index.js = 1700034818999
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\script.js = 1700034819046
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\search-page.js = 1700034819054
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\search.html = 1700034819029
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\search.js = 1700034819050
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\stylesheet.css = 1700034819042
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\tag-search-index.js = 1700034819006
+C:\Users\farmi\Documents\COURS - 2BUTINFO\Qualité de Dev\editeur-de-texte-loyet\target\site\apidocs\type-search-index.js = 1700034819002
