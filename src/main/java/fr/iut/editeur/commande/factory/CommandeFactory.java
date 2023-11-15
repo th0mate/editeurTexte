@@ -9,6 +9,10 @@ public class CommandeFactory {
 
     private static CommandeFactory instance;
 
+    /**
+     * Singleton
+     * @return
+     */
     public static CommandeFactory getInstance() {
         if(instance == null) {
             instance = new CommandeFactory();
@@ -18,6 +22,14 @@ public class CommandeFactory {
 
     private CommandeFactory() {}
 
+
+    /**
+     * Créer une commande en fonction de son nom
+     * @param name
+     * @param document
+     * @param parameters
+     * @return
+     */
     public Commande createCommand(String name, Document document, String[] parameters) {
         switch (name) {
             case "ajouter" : return new CommandeAjouter(document, parameters);

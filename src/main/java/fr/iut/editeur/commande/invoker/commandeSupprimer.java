@@ -9,6 +9,9 @@ public class commandeSupprimer extends CommandeDocument {
         super(document, parameters);
     }
 
+    /**
+     * Supprime le texte entre start et end
+     */
     public void executer() {
         if(parameters.length < 2) {
             System.err.println("Format attendu : effacer;start;end");

@@ -25,12 +25,23 @@ public class Document {
         return this.texte;
     }
 
+    /**
+     * Remplace le texte entre start et end par remplacement
+     * @param start
+     * @param end
+     * @param remplacement
+     */
     public void remplacer(int start, int end, String remplacement) {
         String leftPart = texte.substring(0, start);
         String rightPart = texte.substring(end);
         texte = leftPart + remplacement + rightPart;
     }
 
+    /**
+     * Met en majuscule le texte entre start et end
+     * @param start
+     * @param end
+     */
     public void majuscules(int start, int end) {
         String leftPart = texte.substring(0, start);
         String rightPart = texte.substring(end);
@@ -38,16 +49,29 @@ public class Document {
         texte = leftPart + aRemplacer.toUpperCase() + rightPart;
     }
 
+    /**
+     * Supprime le texte entre start et end
+     * @param start
+     * @param end
+     */
     public void suppression(int start, int end) {
         String leftPart = texte.substring(0, start);
         String rightPart = texte.substring(end);
         texte = leftPart + rightPart;
     }
 
+    /**
+     * Supprime tout le texte
+     */
     public void clear() {
         texte = "";
     }
 
+    /**
+     * Insère le texte insertion à la position start
+     * @param start
+     * @param insertion
+     */
     public void inserer(int start, String insertion) {
         String leftPart = texte.substring(0, start);
         String rightPart = texte.substring(start);

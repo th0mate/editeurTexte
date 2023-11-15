@@ -9,6 +9,9 @@ public class CommandeRemplacer extends CommandeDocument {
         super(document, parameters);
     }
 
+    /**
+     * Remplace le texte entre start et end par le texte donné
+     */
     @Override
     public void executer() {
         if(parameters.length < 3) {

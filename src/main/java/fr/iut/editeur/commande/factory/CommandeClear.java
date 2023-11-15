@@ -9,6 +9,9 @@ public class CommandeClear extends CommandeDocument {
         super(document, parameters);
     }
 
+    /**
+     * Efface le document
+     */
     @Override
     public void executer() {
         this.document.clear();
